@@ -24,7 +24,7 @@ main:
 
 
 docs:
-  - title: "Topics"
+  - title: Topics
     - children:
-      - title: Tutorials
+      - title: "Tutorials"
         url: /tutorials/
