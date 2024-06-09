@@ -120,7 +120,7 @@ author:
   links:
     - label: "alif.aziz@icloud.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://alifuaziz.github.io"
@@ -132,7 +132,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/alifuaziz" 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -148,7 +148,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/alifuaziz" 
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

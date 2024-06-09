@@ -1,13 +1,9 @@
 ---
-title: "Test POst"
+title: "Test Post"
 categories:
   - Tutorials
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - Markdown
 ---
 
 # Test Post
