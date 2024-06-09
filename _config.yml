@@ -118,12 +118,12 @@ author:
   location         : "Oxford"
   # email            : alif.aziz@icloud.com
   links:
-    - label: "alif.aziz@icloud.com"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://alifuaziz.github.io"
+      # url: "https://alifuaziz.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

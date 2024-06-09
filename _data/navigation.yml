@@ -1,8 +1,6 @@
 # main links
 main:
   - title: "Home"
-    url: /
-  - title: "About Me"
     url: /about/
   - title: "CV"
     url: /cv/
@@ -28,3 +26,5 @@ docs:
     children:
       - title: "Tutorials"
         url: /tutorials/
+      - title: "Reviews"
+        url: /reviews/
