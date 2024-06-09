@@ -134,8 +134,8 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alifuaziz" 
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/alifuaziz/"
 
 # Site Footer
 footer:
