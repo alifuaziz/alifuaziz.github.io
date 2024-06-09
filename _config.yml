@@ -113,17 +113,17 @@ analytics:
 # Site Author
 author:
   name             : "Alif Aziz"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : https://github.com/alifuaziz.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Medicine and Neuroscience student at the University of Oxford. I'm trying to document the things I care about."
   location         : "Oxford"
   email            : alif.aziz@icloud.com
   links:
-    - label: "Email"
+    - label: "alif.aziz@icloud.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://alifuaziz.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
