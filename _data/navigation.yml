@@ -6,7 +6,10 @@ main:
     url: /about/
   - title: "CV"
     url: /cv/
-    
+  
+
+
+
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -17,3 +20,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+
+docs:
+  - title: "Topics"
+    - children:
+      - title: Tutorials
+        url: /tutorials/
