@@ -12,12 +12,12 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-GB"
 title                    : "Alif's Online Blog"
-title_separator          : " "
+title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alif Aziz"
 description              : "Medicine, Neuroscience & Other things I care about"
@@ -114,9 +114,9 @@ analytics:
 author:
   name             : "Alif Aziz"
   avatar           : https://github.com/alifuaziz.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Medicine and Neuroscience student at the University of Oxford. I'm trying to document the things I care about."
+  bio              : "I'm trying to document the things I care about."
   location         : "Oxford"
-  email            : alif.aziz@icloud.com
+  # email            : alif.aziz@icloud.com
   links:
     - label: "alif.aziz@icloud.com"
       icon: "fas fa-fw fa-envelope-square"
@@ -318,7 +318,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
-      share: true
-      related: true
+      share: false
+      related: false
