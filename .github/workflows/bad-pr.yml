@@ -30,3 +30,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ github.event.pull_request.number }}
           lock-reason: spam
+
