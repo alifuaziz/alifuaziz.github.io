@@ -10,10 +10,27 @@ tags:
 
 ## Science
 
-- Applied Science
-- Thought Emporium
-- Steve Mould
-- Matt Parker
-- Stuff Made Here
-- Huygens Optics
+- Physics
+  - Huygens Optics
+  - Steve Mould
+  - AlphaPhoenix
 
+- Mathematics
+  - Matt Parker
+  - 3Blue1Brown
+  - Numberphile
+  - Henry Segerman
+  
+- Computer Science
+  - Sebastian Lague
+  - Sethbling
+
+- Engineering
+  - Stuff Made Here
+  - Applied Science
+  - Thought Emporium
+  - ilmango
+
+- Chemistry
+  - NileRed
+  

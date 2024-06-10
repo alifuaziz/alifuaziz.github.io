@@ -5,5 +5,5 @@ categories:
 tags:
   - Modern Art    
 ---
-# A friend and I wrote a review!
+A friend and I wrote a review
 [Imagined Engines of Desire](https://www.cherwell.org/2024/05/16/imagined-engines-of-desire/). Check it Out!

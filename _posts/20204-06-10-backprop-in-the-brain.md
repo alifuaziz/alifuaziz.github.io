@@ -7,7 +7,6 @@ tags:
   - machine learning
   - backpropagation
   - neuroscience
-  - 
 ---
 
  
