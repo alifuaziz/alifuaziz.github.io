@@ -6,3 +6,32 @@
 # branding:
 #   icon: 'file'
 #   color: 'orange'
+name: 'Jupyter Minimal Mistakes'
+
+on:
+  push:
+    branches:
+      - master
+    # pull_request:
+    #   branches:
+    #     - master
+          
+
+# description: 'Convert Jupyter notebooks to Markdown blog posts ready for use with Jekyll and the Minimal Mistakes theme'
+# runs:
+#   using: 'docker'
+#   image: 'Dockerfile'
+# branding:
+#   icon: 'file'
+#   color: 'orange'
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Run shell script
+      run: ./convert_notebooks.sh
