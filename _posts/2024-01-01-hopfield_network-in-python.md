@@ -2,12 +2,16 @@
 layout: notebook
 filename: "2024-01-01-hopfield_network-in-python.ipynb"
 ---
-# Implementation of a Hopfield Network for Part 6 (Optional part of Model of Single Neuron Practical Class)
-Here I implement a Hopfield network, a type of content-addressable memory system that uses a Hebbian Learning Rule to "Recall" the pattern that has been trained on to recover the prompted image
-## Imports
+# Implementation of a Hopfield Network in Python
+Here I implement a Hopfield network, a type of content-addressable memory system that uses a Hebbian Learning Rule to "Recall" the pattern that has been trained on to recover the prompted image.
+
+This type of network is an important part of understanding parts of [attention blocks](https://alifuaziz.github.io/tutorials/attention-blocks-and-hopfield-networks/) as they serve as ways of associating different parts of patterns to eachother. 
+
+
 
 
 ```python
+## Imports
 import os
 import numpy as np
 import pandas as pd
@@ -61,6 +65,8 @@ downscaled_pattern_array.shape
 
 ## Definition of Hopfield Network
 
+Start with a class which defines the learning rule and recall (`predict`) rule. 
+
 
 ```python
 class HopfieldNetwork:
@@ -89,6 +95,8 @@ class HopfieldNetwork:
         return output.flatten()
 
 ```
+
+Please note that in the learning happens in one shot (one presentation of the data). This makes the hopefield network a very efficient (on data) type of machine learning algorithm. 
 
 ## Add noise to the image that needs to removed to recover the orginal image
 Preprocessing step: due the implementation details of the network, it will only  learn binary patterns. Therefore, the image to be trained on must also be binary.
@@ -134,7 +142,7 @@ for i in range(downscaled_pattern_array.shape[0]):
 
 
     
-![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-01-01-hopfield_network-in-python_files/2024-01-01-hopfield_network-in-python_8_0.png)
+![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-01-01-hopfield_network-in-python_files/2024-01-01-hopfield_network-in-python_9_0.png)
     
 
 
@@ -205,6 +213,6 @@ plot_images(downscaled_pattern_array,
 
 
     
-![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-01-01-hopfield_network-in-python_files/2024-01-01-hopfield_network-in-python_11_0.png)
+![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-01-01-hopfield_network-in-python_files/2024-01-01-hopfield_network-in-python_12_0.png)
     
 
