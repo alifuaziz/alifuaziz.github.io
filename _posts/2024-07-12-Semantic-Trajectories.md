@@ -1,6 +1,6 @@
 ---
 layout: notebook
-filename: "2024-07-12-Semantic-Trajectories.ipynb"
+filename: "2024-07-12-semantic-trajectories.ipynb"
 ---
 Based on work from [Matthew Nour](https://matthewnour.com), I have become interested in the trajectories through semantic meaning space for natural language. Particularly demonstrated in his paper [Trajectories through semantic spaces in schizophrenia and the relationship to ripple bursts](https://www.pnas.org/doi/10.1073/pnas.2305290120). 
 
@@ -907,7 +907,7 @@ plt.show()
 
 
     
-![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-07-12-Semantic-Trajectories_files/2024-07-12-Semantic-Trajectories_16_0.png)
+![png]({{ site.url }}{{ site.baseurl }}/assets/images/2024-07-12-semantic-trajectories_files/2024-07-12-semantic-trajectories_16_0.png)
     
 
 
